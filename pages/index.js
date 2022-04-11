@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Sidebar from '../components/sidebar';
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
       </Head>
       
       <main>
+        <Sidebar>
+          
+        </Sidebar>
       {/*Sidebar */}
       {/*Feed */}
       {/*Widgets */}
